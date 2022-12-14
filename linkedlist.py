@@ -66,3 +66,38 @@ class LinkedList:
         prev.next = temp.next
         temp = None
 
+        
+        
+
+# Yangi Linked list yaratib olamiz.
+llist = LinkedList()
+
+# linked listga qiymat kiritamiz.
+# llist.head = Node('Dushanba')
+# tuesday = Node('Seshanba')
+# wendesday = Node('Chorshanba')
+
+# Listlarimizni bir biriga bog'laymiz.
+# llist.head.next = tuesday
+# tuesday.next = wendesday
+
+# Listdan qiymat o'qib ko'ramiz.
+# print(llist.head.next.next.data)
+
+# Listning boshiga elemetn qo'shib ko'ramiz.
+# llist.push('Yakshanba')
+# llist.printlist()
+
+# Listni istalgan joyiga element qo'shish.
+# llist.insertAfter(llist.head.next, 'Dushanba kechasi')
+# llist.printlist()
+
+# List oxiriga element qo'shish.
+# llist.append('Payshanba')
+# llist.printlist()
+
+# Listdan ma'lumotni o'chirish.
+# llist.delete('Seshanba')
+# llist.printlist()
+
+      

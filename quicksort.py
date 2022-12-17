@@ -2,7 +2,7 @@
 from random import randrange
 
 
-def qsort(array: list, reverse=False):
+def qsort(array: list, reverse=False) -> list:
     """
     :param array: Sorted this array.
     :param reverse: Sorted growth reverse False. Sorted decrease reverse True.
